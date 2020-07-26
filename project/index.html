@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheCakeShop</title>
+    <link rel="icon" href="/home/darkshadow/web/week1/project/Images/new-logo.png" type="image/gif" sizes="16x16">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gabriela&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Gabriela&family=Lobster&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+        
+        .navbar {
+            display: block;
+            width: 100%;
+            height: 85px;
+            background-color: #333;
+            position: static;
+        }
+        
+        ul {
+            display: block;
+            list-style-type: none;
+        }
+        
+        li {
+            display: block;
+            float: right;
+        }
+        
+        .link {
+            display: block;
+            padding: 30px 20px;
+            text-decoration: none;
+            color: rgb(235, 221, 204);
+            font-weight: 50;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20px;
+            /* background-color: rgb(37, 34, 34); */
+        }
+        
+        .logo {
+            float: left;
+            padding: 3.5px 10px;
+        }
+        
+        .link:hover {
+            color: rgb(239, 243, 237);
+            background-color: tomato;
+            box-shadow: 4px;
+            display: block;
+            animation: ease-in;
+        }
+        
+        h1 {
+            font-family: 'Gabriela', serif;
+            font-weight: 50px;
+            font-size: 40px;
+            text-align: left;
+            display: block;
+            padding: 18px;
+            margin-left: 18px;
+            color: rgb(223, 215, 215);
+        }
+        
+        .hero {
+            background-image: url(https://cdn.pixabay.com/photo/2015/07/28/22/02/sweets-865095_960_720.jpg);
+            background-position: center;
+            background-repeat: none;
+            background-size: cover;
+            width: 100%;
+            height: 100vh;
+        }
+        /* .welcome {
+            width: 100%;
+            height: 100vh;
+            background-color: rgba(0, 0, 0, 0.288);
+        } */
+        
+        h2 {
+            font-family: 'Lobster', cursive;
+            color: rgb(221, 206, 206);
+            padding: 310px 8px;
+            float: center;
+            font-weight: 50px;
+            font-size: 70px;
+        }
+        
+        .menu {
+            width: 100%;
+            height: 100vh;
+            background-image: url(/home/darkshadow/web/week1/project/Images/cake-background.jpg);
+            background-repeat: none;
+            background-position: center;
+            background-size: cover;
+        }
+        
+        .overlay {
+            width: 100%;
+            height: 100vh;
+            background-color: rgba(0, 0, 0, 0.671);
+        }
+        
+        h3 {
+            display: block;
+            font-family: 'Lobster', cursive;
+            float: center;
+            font-size: 50px;
+            color: rgb(189, 74, 189);
+            padding: 10px 450px
+        }
+        
+        table {
+            float: left;
+            padding: 5px 5px;
+        }
+        
+        td {
+            display: block;
+            padding: 20px 5px;
+            font-family: 'Lobster', cursive;
+            font-size: 25px;
+        }
+        
+        .about {
+            width: 100%;
+            height: 90vh;
+            background-image: url(/home/darkshadow/web/week1/project/Images/pastry-shop-bg.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        
+        h6 {
+            display: block;
+            font-size: 50px;
+            text-align: center;
+            padding: 8px 440px;
+            font-weight: bold;
+            font-family: 'Lobster', cursive;
+            width: 420px;
+            color: rgb(7, 54, 50);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navigation bar starts here -->
+    <div class="navbar" style="color: black;">
+
+        <ul>
+            <li> <a href="" class="link">ContactUs</a> </li>
+            <li><a class="link" href="#about">AboutUs</a></li>
+            <li><a class="link" href="#menu">Menu</a></li>
+            <li><a class="link" href="#hero">Home</a></li>
+
+            <a href="" class="logo"><img src="/home/darkshadow/web/week1/project/Images/new-logo.png" alt="shop-logo" style="width: 80px;height: 60p;"></a>
+            <h1>The Cake Shop</h1>
+
+        </ul>
+    </div>
+    <!-- navigation bar ends here -->
+    <!-- Hero section starts here -->
+    <div class="hero" id="hero">
+        <div class="welcome">
+
+            <h2>Welcome to The Cake Shop</h2>
+
+        </div>
+
+    </div>
+    <!-- Hero section ends here -->
+    <!-- menu section starts here -->
+    <div class="menu" id="menu">
+        <div class="overlay">
+            <h3>We Serve Happiness..</h3>
+
+            <!-- <ul> -->
+            <!-- <li style="float: left;">Menu Choco Pista...................................$15/kg Choco Walnut..................................$13/kg Choco Raspberry...............................$13/kg Passion Fruit.................................$12/kg Custered Apple Fruit..........................$10/kg</li> -->
+            <!-- </ul> -->
+            <h4>
+                <table>
+                    <tr>
+                        <td style="font-size: 60px;color: rgb(247, 220, 179);margin-left: 600px;">Menu</td>
+                        <td style="color: #93c572;">Choco Pista..............................$15/kg</td>
+                        <td style="color: #9e3309;">Choco Walnut.............................$13/kg</td>
+                        <td style="color: #D2691E;">Choco Custered...........................$13/kg</td>
+                        <td style="color: #e30b5d;">Choco Raspberry..........................$12/kg</td>
+                        <td style="color: #fffdd0;">Choco Creame.............................$10/kg</td>
+                        <td style="color: #eb968a;">Passion Fruit............................$11/kg</td>
+                    </tr>
+                </table>
+            </h4>
+            <h5>
+                <table style="float: right;">
+                    <tr style="display: block; float: right; padding: 115px 20px;">
+                        <td style="color: #f7f30f;">Pineapple................................$3/kg</td>
+                        <td style="color: #da3db2;">Strawberry..............................$5/kg</td>
+                        <td style="color: #b3491fb7;">Chocolate................................$8/kg</td>
+                        <td style="color: #b1770c;">Muffins..................................$2</td>
+                        <td style="color: #e2bb71;">Waffles..................................$3</td>
+                        <td style="color: #e72207;">Cupcakes.................................$1</td>
+
+                    </tr>
+                </table>
+            </h5>
+
+        </div>
+        <!-- Menu section ends here -->
+        <!-- AboutUs section starts here -->
+        <div class="about" id="about">
+
+            <h6>Little About Us..
+                <br>
+                <br>
+            </h6>
+            <p style="font-size: 25px;color: rgb(14, 9, 24);margin-left: 135px; font-family: 'Lobster', cursive;">We will in general overlook that satisfaction doesn’t originate from something we don’t have, yet rather of perceiving and acknowledging what we do… Satisfaction is fellowship… Joy is festivity. It’s tied in with acquiring bliss and praising
+                life. </p>
+
+            <img src="/home/darkshadow/web/week1/project/Images/new-logo.png" alt="new-logo" style="width: 160px;height: 160px; float: left;display: block;padding: 150px 50px;">
+        </div>
+    </div>
+    <!-- About section ends here -->
+    <!-- contactus section starts here -->
+</body>
+
+</html>
